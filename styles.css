@@ -4,17 +4,34 @@ body{
 }
 
 img{
-  width: 300px;
-  margin: 10%;
+  display: block;
+  width: 25%;
+  margin: 5rem auto 1rem;
+  border-radius: 50%;
+  border: #E4D00A 2px solid;
 }
 
 h2{
   width: max-content;
-  margin: 15% auto 2rem;
+  margin: 5% auto 2rem;
 }
 
 p{
   width: 50%;
   text-align: center;
   margin: auto;
+}
+a{
+  color: #E4D00A;
+  text-decoration: none;
+}
+a:hover{
+  color: #807613;
+  text-decoration: underline;
+}
+a:active{
+  color: #E5DC79;
+}
+a:visited{
+  color: #E5DC79;
 }
